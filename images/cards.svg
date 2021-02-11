@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" width="480px" height="240px" viewBox="0 0 960 480">
+  <defs>
+    <style>.cls-1,.cls-2{fill:#fff;}.cls-2,.cls-3{fill-rule:evenodd;}.cls-3{fill:#e2dde5;}.cls-4{fill:none;stroke:#442358;stroke-linecap:round;stroke-width:11px;}.cls-5{fill:#8247b5;}</style>
+  </defs>
+  <title>bambora_accaptance_inlosen</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_11" data-name="Layer 11">
+      <rect class="cls-1" width="960" height="480"></rect>
+    </g>
+    <g id="mutiple_cards" data-name="mutiple cards">
+      <g id="Instore">
+        <g id="instore-2" data-name="instore">
+          <polygon id="Shape" class="cls-2" points="381.4 299.5 339 182.6 562.2 101.7 619.5 259.8 433.6 327.2 466.4 257.2 453 220.3 415.7 233.9 386 297.8 381.4 299.5"></polygon>
+          <path id="Rectangle-2" class="cls-3" d="M595.8,194.3l18.7,51.6a14.8,14.8,0,0,1-8.9,19l-195.9,71a14.4,14.4,0,0,1-18.3-8.6l-18.9-52.1Z"></path>
+          <path class="cls-4" d="M529,113.7l17.1-6.2c9.3-3.3,19,2.1,22.5,11.8l44.6,123c3.5,9.7-1.2,20.3-10.5,23.6l-193,70c-12.5,4.5-17.1-5.3-21.6-17.8L345.2,199.8c-3.4-9.5,6.3-7.1,16-10.7"></path>
+          <path id="Rectangle-2-2" data-name="Rectangle-2" class="cls-3" d="M556.5,169.8l29.4,46.3a14.9,14.9,0,0,1-4.6,20.5l-176,111.5a14.3,14.3,0,0,1-19.7-4.4L356,296.9Z"></path>
+          <path class="cls-4" d="M443.3,124.9l46.1-29.2c8.3-5.3,18.6-2.1,24.1,6.7l70.3,110.5c5.6,8.7,3.2,20-5.1,25.3L405.3,348.1c-11.2,7.1-17.8-1.5-24.9-12.7L313,229.1c-5.4-8.6.1-12,8.8-17.5"></path>
+          <polygon id="Shape-2" data-name="Shape" class="cls-2" points="289.6 261.4 289.6 137.1 517 137.1 523.8 140.6 527.1 149.2 527.1 296.8 519.3 304.5 329.3 305.2 384 250.6 373.8 250.5 342.8 252.1 294.6 261.4 289.6 261.4"></polygon>
+          <path id="Rectangle-2-3" data-name="Rectangle-2" class="cls-3" d="M527.1,235.6v54.8a14.9,14.9,0,0,1-14.9,14.8H303.8A14.2,14.2,0,0,1,289.6,291V235.6Z"></path>
+          <path class="cls-4" d="M490.5,137.1h19.4c9.9,0,17.2,8.3,17.2,18.6V286.6c0,10.3-8.1,18.6-18,18.6H303.8c-13.2,0-14.2-10.7-14.2-24V155.3c0-10.1,8.4-18.2,18.8-18.2h98"></path>
+          <circle id="Oval-2" class="cls-5" cx="448.7" cy="137.1" r="29.7"></circle>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

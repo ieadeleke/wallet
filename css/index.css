@@ -1,0 +1,324 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-size: 15px;
+    /* font-family: 'Barlow Condensed', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.contain {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.bg-dark {
+    background: #17120F;
+    border: 1px solid #17120F;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 25px;
+    font-weight: 600;
+    line-height: 150%;
+    border-radius: 2px;
+}
+
+.bg-white {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #17120F;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 25px;
+    font-weight: 600;
+    line-height: 150%;
+    border-radius: 2px;
+}
+
+.bg-border-black {
+    background: transparent;
+    color: #17120F;
+    border: 1px solid #17120F;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    font-weight: 600;
+    line-height: 150%;
+    border-radius: 2px;
+    transition: background .2s ease-in-out, color .2s ease-in-out;
+}
+
+.bg-border-black:hover {
+    background: #17120F;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form-flex-2 {
+    display: flex;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-3 img {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    margin: 0% auto;
+    display: block;
+    margin-top: 25%;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-4 img {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    margin: 0% auto;
+    display: block;
+    margin-top: 25%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+.profile {
+    width: 100%;
+    min-height: 100vh;
+    background: #FBFBFB;
+}
+
+
+
+
+
+.left {
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    min-height: 100vh;
+    background: #011B33;
+}
+
+.left ul.first {
+    margin-top: 40%;
+}
+
+.left ul li {
+    padding: 15px;
+}
+
+.left ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 85%;
+}
+
+.left ul li i {
+    margin-right: 10px;
+}
+
+.right {
+    margin-left: 15%;
+    width: calc(100% - 15%);
+    float: left;
+}
+
+.right .block {
+    display: block;
+    width: 100%;
+    /* height: 50px; */
+    border-bottom: 1px solid #F2F2F2;
+    background: #fff;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, .5); */
+}
+
+.right .block h5 {
+    padding: 15px 0;
+    font-size: 125%;
+    font-weight: 500;
+}
+
+.right .block label {
+    font-size: 95%;
+    margin-right: 5px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.right .block div.form-group {
+    padding: 15px 0;
+}
+
+.right select {
+    height: 2rem;
+    width: 30%;
+    border-radius: 2px;
+    padding: 0% 5px;
+    font-size: 85%;
+    font-weight: 300;
+    line-height: 150%;
+    border: 1px solid #DEE5E7;
+}
+
+.right select:focus {
+    border: 1px solid #DEE5E7;
+}
+
+.right select:hover {
+    border: 1px solid #98C5E9;
+}
+
+.right .center-text div {
+    margin-top: 15%;
+}
+
+.right .center-text div i {
+    font-size: 350%;
+    color: #98C5E9;
+    margin-bottom: 10px;
+}
+
+.right .center-text div h3 {
+    font-size: 145%;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.right .center-text div p {
+    line-height: 150%;
+}
+
+
+.logo {
+    height: 4rem;
+    width: auto;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+
+.container-table100 {
+    margin-top: 5%;
+}
+
+
+.flex-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-2 p {
+    font-size: 95%;
+    line-height: 150%;
+}
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+.profile input[type="email"], input[type="text"], input[type="password"], .modal select {
+    height: 2.5rem;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #CED4DA;
+    padding: 0% 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 100%;
+    line-height: 150%;
+    margin-top: 5px;
+}
+
+label {
+    font-size: 90%;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+.modal .form-group {
+    margin-bottom: 25px;
+}
+
+.modal-content form input[type="submit"] {
+    background: #17120F;
+    border: 1px solid #17120F;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 25px;
+    font-weight: 600;
+    line-height: 150%;
+    border-radius: 2px;
+}
